@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
 
-        <header className="relative flex w-full items-center justify-between px-4 md:px-10 py-3 bg-background-accent">
+        <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 md:px-10 py-3 bg-background-accent">
            <Image src="/logo.svg" alt="Logo du portail Portfolio Pro" width={300} height={90} />
 
            <nav className="hidden md:block px-2">
