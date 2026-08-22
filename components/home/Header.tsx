@@ -16,9 +16,9 @@ export default function Header() {
 
            <nav className="hidden md:block px-2">
                 <ul className="flex gap-8">
-                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="#" >Accueil</Link></li>
-                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="#" >Profils</Link></li>
-                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="#" >À propos</Link></li>
+                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/" >Accueil</Link></li>
+                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/profil" >Profils</Link></li>
+                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/about" >À propos</Link></li>
                 </ul>
            </nav>
 

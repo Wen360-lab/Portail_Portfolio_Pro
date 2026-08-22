@@ -35,7 +35,7 @@ export default function Sponsors() {
             >
                 Ceux grâce à qui tout celà est rendu possible
             </motion.p>
-            <div className="grid items-center justify-center  grid-cols-2 md:grid-cols-4 gap-4 mx-auto">
+            <div className="grid items-center justify-center grid-cols-2 md:grid-cols-4 gap-4 mx-auto">
                 {logo.map((tech, index) => {
                
                 return (
