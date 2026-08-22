@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 
 export default function CardProfil() {
     return (
-        <section className="flex flex-col items-center justify-center mt-20 md:mt-25 mx-10 gap-3 ">
+        <section className="flex flex-col items-center justify-center mt-20 md:mt-20 mx-10 gap-3 ">
             {/* Le badge au dessus du titre principal des card profils */}
             <motion.div
                 initial={{ opacity: 0, y: 10 }}

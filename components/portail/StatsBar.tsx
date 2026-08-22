@@ -3,7 +3,7 @@
 import { motion } from "motion/react"
 
 const stats = [
-    { value: "15+", label: "Développeurs" },
+    { value: "10+", label: "Développeurs" },
     { value: "10+", label: "Projets réalisés" },
     { value: "3", label: "Spécialisations" },
     { value: "14e", label: "Promotion" },

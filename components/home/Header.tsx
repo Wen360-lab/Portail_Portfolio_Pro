@@ -17,7 +17,7 @@ export default function Header() {
            <nav className="hidden md:block px-2">
                 <ul className="flex gap-8">
                     <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/" >Accueil</Link></li>
-                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/profil" >Profils</Link></li>
+                    <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/profil" >Développeurs</Link></li>
                     <li className="text-white font-heading font-semibold cursor-pointer hover:opacity-80 transition-opacity"><Link href="/about" >À propos</Link></li>
                 </ul>
            </nav>
@@ -33,9 +33,9 @@ export default function Header() {
            {menuOpen && (
                 <nav className="absolute top-full left-0 w-full bg-background-accent md:hidden">
                     <ul className="flex flex-col items-center gap-6 py-6">
-                        <li className="text-white font-heading font-semibold"><Link href="#" onClick={() => setMenuOpen(false)}>Accueil</Link></li>
-                        <li className="text-white font-heading font-semibold"><Link href="#" onClick={() => setMenuOpen(false)}>Profils</Link></li>
-                        <li className="text-white font-heading font-semibold"><Link href="#" onClick={() => setMenuOpen(false)}>À propos</Link></li>
+                        <li className="text-white font-heading font-semibold"><Link href="/" onClick={() => setMenuOpen(false)}>Accueil</Link></li>
+                        <li className="text-white font-heading font-semibold"><Link href="/profil" onClick={() => setMenuOpen(false)}>Développeurs</Link></li>
+                        <li className="text-white font-heading font-semibold"><Link href="/about" onClick={() => setMenuOpen(false)}>À propos</Link></li>
                     </ul>
                 </nav>
            )}

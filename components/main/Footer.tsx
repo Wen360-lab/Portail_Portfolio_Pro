@@ -14,7 +14,7 @@ export default function Footer() {
                     <nav className="">
                         <ul className="flex gap-8 text-white font-heading">
                             <li className="hover:opacity-80 transition-opacity"><Link href="/">Accueil</Link></li>
-                            <li className="hover:opacity-80 transition-opacity"><Link href="/profil">Profils</Link></li>
+                            <li className="hover:opacity-80 transition-opacity"><Link href="/profil">Développeurs</Link></li>
                             <li className="hover:opacity-80 transition-opacity"><Link href="/about">À propos</Link></li>
                         </ul>
                     </nav>

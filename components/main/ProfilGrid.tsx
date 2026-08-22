@@ -16,7 +16,7 @@ export default function ProfilGrid() {
     return (
         <section className="flex flex-col items-center justify-center px-6 py-12">
             <div className="w-auto">
-            <p className="text-grey mb-4 text-left ">Filtre</p>
+            <p className="text-grey mb-4 text-left ">Spécialité</p>
             <div className="grid items-center justify-center  grid-cols-2 md:grid-cols-4 gap-4 mx-auto border-b border-background-accent pb-6 mb-8">
                 {filtres.map((filtre) => (
                     <button
