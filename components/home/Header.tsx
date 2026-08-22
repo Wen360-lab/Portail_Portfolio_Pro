@@ -12,7 +12,13 @@ export default function Header() {
     return (
 
         <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 md:px-10 py-3 bg-background-accent">
-           <Image src="/logo.svg" alt="Logo du portail Portfolio Pro" width={300} height={90} />
+            <Image
+                src="/logo.svg"
+                alt="Logo du portail Portfolio Pro"
+                width={300}
+                height={90}
+                className="w-45 h-auto md:w-75"
+            />
 
            <nav className="hidden md:block px-2">
                 <ul className="flex gap-8">

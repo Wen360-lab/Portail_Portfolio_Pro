@@ -31,11 +31,11 @@ export default function Sponsors() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="mt-4 text-center text-xl md:text-2xl mx-10"
+                className="mt-6 text-center text-xl md:text-2xl mx-10"
             >
                 Ceux grâce à qui tout celà est rendu possible
             </motion.p>
-            <div className="grid items-center justify-center grid-cols-2 md:grid-cols-4 gap-4 mx-auto">
+            <div className="mt-4 grid items-center justify-center grid-cols-2 md:grid-cols-4 gap-4 mx-auto">
                 {logo.map((tech, index) => {
                
                 return (

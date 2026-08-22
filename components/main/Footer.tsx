@@ -11,8 +11,8 @@ export default function Footer() {
                 <div className="flex flex-col gap-8">
                     <Image src="/logo.svg" alt="Logo du portail Portfolio Pro" width={300} height={90} />
 
-                    <nav className="">
-                        <ul className="flex gap-8 text-white font-heading">
+                    <nav>
+                        <ul className="flex flex-col lg:flex-row gap-4 text-white font-heading">
                             <li className="hover:opacity-80 transition-opacity"><Link href="/">Accueil</Link></li>
                             <li className="hover:opacity-80 transition-opacity"><Link href="/profil">Développeurs</Link></li>
                             <li className="hover:opacity-80 transition-opacity"><Link href="/about">À propos</Link></li>
