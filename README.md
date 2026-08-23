@@ -1,4 +1,4 @@
-##  Portail Portolio Pro
+##  Portail Portfolio Pro
 # À propos du projet
 
 Portail Portfolio Pro est le remaster personnel du site vitrine de la Promotion 14 des développeurs (matin) de l'École 241, repensé à partir du desgin existant et utilisant une stack moderne (Next.js, TypeScript, Tailwind CSS v4, Motion). L'objectif : proposer une identité visuelle plus soignée, une expérience utilisateur plus fluide, et démontrer une approche design-first (Figma/code) sur un cas concret.
@@ -13,8 +13,8 @@ Ce projet est une **initiative personnelle** de remaster du portail de la Promot
 - Un code, un design et une architecture entièrement écrits par moi
 
 **Ce que ce projet n'est pas :**
-- Le site officiel de la Promotion 14 ni d'École 241
-- Un projet affilié, sponsorisé ou validé par École 241, Ogooué Labs, Simplon ou l'OIF
+- Le site officiel de la Promotion 14 ni de l'École 241
+- Un projet affilié, sponsorisé ou validé par École 241, Ogooué Labs, ou l'OIF
 - Une reprise du contenu produit collectivement par ma promotion
 
 **Mentions légales**
@@ -26,5 +26,5 @@ Si vous représentez l'une de ces organisations et souhaitez que je modifie ou r
 ## Contact
 
 **MAKANAGA ETCHOU Wen Joanel**
-Étudiant développeur web & web mobile ; École 241 (Libreville, Gabon)
+Étudiant, développeur web & web mobile École 241 (Libreville, Gabon)
 email : wenetchou330@gmail.com
