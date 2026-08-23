@@ -3,6 +3,8 @@
 import Header from "@/components/home/Header"
 import AboutHero from "@/components/about/AboutHero"
 import EcoleSection from "@/components/about/EcoleSection"
+import PartenaireSection from "@/components/about/PartenaireSection"
+import CtaSection from "@/components/about/CtaSection"
 
 export default function About() {
   return (
@@ -10,6 +12,8 @@ export default function About() {
         <Header/>
         <AboutHero/>
         <EcoleSection/>
+        <PartenaireSection/>
+        <CtaSection/>
     </section>
 
   )

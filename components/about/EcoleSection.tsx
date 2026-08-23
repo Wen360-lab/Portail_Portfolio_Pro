@@ -8,8 +8,8 @@ interface StatCardProps {
 
 function StatCard({ value, label, description }: StatCardProps) {
     return (
-        <div className="flex flex-col items-center justify-center bg-white rounded-xl px-6 py-8 text-center shadow-sm">
-            <span className="text-4xl font-bold text-background-accent font-heading">{value}</span>
+        <div className="flex flex-col items-center justify-center bg-white rounded-xl px-13 py-7 md:px-6 md:py-8 text-center shadow-sm">
+            <span className="text-3xl font-bold text-background-accent font-heading">{value}</span>
             <span className="text-sm font-semibold uppercase tracking-wide text-background-accent mt-1">{label}</span>
             <p className="text-sm text-background-dark mt-2">{description}</p>
         </div>
@@ -25,8 +25,8 @@ const stats = [
 
 export default function EcoleSection() {
     return (
-        <section className="flex items-center justify-center mt-40 md:mt-45 mx-10 w-full bg-white">
-            <div className="flex items-center justify-between bg-background px-25 py-35 rounded-xl mt-20 gap-10">
+        <section className="flex items-center justify-center mt-40  md:mt-45 mx-4 md:mx-10 w-full bg-white">
+            <div className="flex flex-col md:flex-row items-center justify-between bg-background px-6 py-10 md:px-25 md:py-35 rounded-xl mt-20 mb-20 gap-10">
                 
                 <div className="max-w-md">
                     <h2 className="text-background-accent text-3xl text-left font-bold">École 241</h2>
