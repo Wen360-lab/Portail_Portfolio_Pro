@@ -5,7 +5,8 @@
 :root {
   --background: #eff0fe;
   --background-accent: #1b407d;
-  --background-shadow: #132542;
+  --background-dark: #142643;
+  --background-aera: #C7CBD1;
   --grey: #666666;
   --font-heading: 'Sora', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -23,6 +24,8 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-aera: var(--background-aera);
+  --color-background-dark: var(--background-dark);
   --color-font:var(--grey);
   --color-background-accent: var(--background-accent);
   --font-heading: var(--font-heading);

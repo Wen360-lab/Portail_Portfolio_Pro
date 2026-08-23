@@ -1,12 +1,15 @@
 // Page À propos
 
 import Header from "@/components/home/Header"
+import AboutHero from "@/components/about/AboutHero"
+import EcoleSection from "@/components/about/EcoleSection"
 
 export default function About() {
   return (
-    <section className="bg-background flex mx-auto my-20">
+    <section className="flex flex-col items-center justify-center ">
         <Header/>
-        <h1 className="mt-50 text-background-accent">En construction !</h1>
+        <AboutHero/>
+        <EcoleSection/>
     </section>
 
   )
