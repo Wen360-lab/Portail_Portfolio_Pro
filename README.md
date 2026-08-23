@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+##  Portail Portolio Pro
+# À propos du projet
 
-## Getting Started
+Portail Portfolio Pro est le remaster personnel du site vitrine de la Promotion 14 des développeurs (matin) de l'École 241, repensé à partir du desgin existant et utilisant une stack moderne (Next.js, TypeScript, Tailwind CSS v4, Motion). L'objectif : proposer une identité visuelle plus soignée, une expérience utilisateur plus fluide, et démontrer une approche design-first (Figma/code) sur un cas concret.
 
-First, run the development server:
+##  Crédits & Disclaimer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ce projet est une **initiative personnelle** de remaster du portail de la Promotion 14 d'École 241, réalisée de manière indépendante pour approfondir mes compétences en développement front-end (Next.js, TypeScript, Tailwind CSS v4, Motion) et en design UI/UX.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Ce que ce projet est :**
+- Un exercice personnel de réinterprétation design et technique d'un site existant
+- Une pièce de portfolio démontrant ma progression et mes choix techniques
+- Un code, un design et une architecture entièrement écrits par moi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Ce que ce projet n'est pas :**
+- Le site officiel de la Promotion 14 ni d'École 241
+- Un projet affilié, sponsorisé ou validé par École 241, Ogooué Labs, Simplon ou l'OIF
+- Une reprise du contenu produit collectivement par ma promotion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Mentions légales**
 
-## Learn More
+Les noms, logos et marques cités ou visibles dans ce projet (École 241, Ogooué Labs, Simplon, OIF, etc.) appartiennent à leurs propriétaires respectifs. Ils sont utilisés à titre purement informatif et descriptif, pour illustrer le contexte de ma formation, sans intention commerciale ni volonté de créer une confusion avec les entités concernées.
 
-To learn more about Next.js, take a look at the following resources:
+Si vous représentez l'une de ces organisations et souhaitez que je modifie ou retire un élément, n'hésitez pas à me contacter — je répondrai avec plaisir et dans les meilleurs délais.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**MAKANAGA ETCHOU Wen Joanel**
+Étudiant développeur web & web mobile ; École 241 (Libreville, Gabon)
+email : wenetchou330@gmail.com
